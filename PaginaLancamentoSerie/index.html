@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lançamento - Anéis do Poder</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./scripts.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="poster" id="poster" role="dialog" aria-labelledby="poster-title">
+        <img src="./assets/poster.png" alt="Pôster de entrada de O Senhor dos Anéis: Os Anéis do Poder"
+            class="poster__img">
+        <button class="poster__close" onclick="closePoster()" aria-label="Fechar pôster">X</button>
+    </section>
+
+    <header class="header">
+        <div class="header__logo">
+            <img src="./assets/prime.png" alt="Logo Prime Video" class="logo__image">
+        </div>
+        <h1 class="header__title">O Senhor dos Anéis: Os Anéis do Poder</h1>
+        <nav class="header__nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#sinopse" class="nav__link">Sinopse</a></li>
+                <li class="nav__item"><a href="#elenco" class="nav__link">Elenco</a></li>
+                <li class="nav__item"><a href="#personagens" class="nav__link">Personagens</a></li>
+                <li class="nav__item"><a href="#assistir" class="nav__link">Onde Assistir?</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section id="sinopse" class="main-content__section">
+            <h2 class="section__title">Sinopse</h2>
+            <p class="section__description"><i>Antes de O Hobbit. Antes de O Senhor dos Anéis. Uma nova era
+                    começa. </i>Mergulhe na
+                Segunda Era da Terra-média e testemunhe a ascensão do mal que mudará para sempre o destino de todos.
+                Conheça a origem dos Anéis de Poder, a luta dos povos da Terra-média e os lendários heróis que
+                enfrentarão a
+                escuridão. Uma série épica, visualmente deslumbrante, que une aventura, traição e coragem.
+            </p>
+        </section>
+
+        <section id="trailer" class="main-content__section">
+            <h2 class="section__title">Trailer Oficial</h2>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/b_gKwV2ebJY"
+                    title="Trailer Oficial - Os Anéis do Poder" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="elenco" class="main-content__section">
+            <h2 class="section__title">Elenco</h2>
+            <p class="section__description">Conheça os talentosos atores que dão vida aos personagens de Anéis do Poder.
+            </p>
+            <div class="elenco-list">
+                <p>Morfydd Clark como Galadriel.</p>
+                <p>Robert Aramayo como Elrond.</p>
+                <p>Ismael Cruz Córdova como Arondir.</p>
+                <p>Nazanin Boniadi como Bronwyn.</p>
+                <p>Charlie Vickers como Halbrand.</p>
+                <p>Markella Kavenagh como Elanor "Nori" Pé Peludo.</p>
+                <p>Owain Arthur como Príncipe Durin IV.</p>
+                <p>Sophia Nomvete como Princesa Disa.</p>
+                <p>Benjamin Walker como Alto Rei Gil-galad.</p>
+                <p>Charles Edwards como Celebrimbor.</p>
+                <p>Maxim Baldry como Isildur.</p>
+                <p>Cynthia Addai-Robinson como Rainha Regente Míriel.</p>
+            </div>
+        </section>
+
+        <section id="personagens" class="main-content__section">
+            <h2 class="section__title">Personagens</h2>
+            <div class="gallery__container">
+                <a href="#personagem1"><img src="./assets/galadriel.png" alt="Personagem 1" class="gallery__image"></a>
+                <a href="#personagem2"><img src="./assets/elrond.png" alt="Personagem 2" class="gallery__image"></a>
+                <a href="#personagem3"><img src="./assets/arondir.png" alt="Personagem 3" class="gallery__image"></a>
+                <a href="#personagem4"><img src="./assets/bronwyn.png" alt="Personagem 4" class="gallery__image"></a>
+                <a href="#personagem5"><img src="./assets/halbrand.png" alt="Personagem 5" class="gallery__image"></a>
+                <a href="#personagem6"><img src="./assets/elanor.png" alt="Personagem 6" class="gallery__image"></a>
+                <a href="#personagem7"><img src="./assets/durin.png" alt="Personagem 7" class="gallery__image"></a>
+                <a href="#personagem8"><img src="./assets/disa.png" alt="Personagem 8" class="gallery__image"></a>
+                <a href="#personagem9"><img src="./assets/galad.png" alt="Personagem 9" class="gallery__image"></a>
+                <a href="#personagem10"><img src="./assets/celebrimbor.png" alt="Personagem 10"
+                        class="gallery__image"></a>
+                <a href="#personagem11"><img src="./assets/isuldur.png" alt="Personagem 11" class="gallery__image"></a>
+                <a href="#personagem12"><img src="./assets/miriel.png" alt="Personagem 12" class="gallery__image"></a>
+            </div>
+        </section>
+
+        <section class="characters-grid">
+            <div id="personagem1" class="character-story">
+                <h3 class="character-story__title">Galadriel</h3>
+                <p class="character-story__description">Galadriel é uma guerreira determinada a caçar Sauron e vingar
+                    seu irmão caído. Ela é uma das elfas mais poderosas e sábias, desempenhando um papel importante no
+                    combate à escuridão crescente. Ao longo das eras, ela se torna uma das governantes de Lothlórien,
+                    conhecida por sua sabedoria e beleza.</p>
+            </div>
+
+            <div id="personagem2" class="character-story">
+                <h3 class="character-story__title">Elrond</h3>
+                <p class="character-story__description">Elrond é um meio-elfo que escolheu o destino imortal e se torna
+                    uma figura central na política élfica. No início da série, ele ainda está encontrando seu lugar no
+                    mundo e é próximo de figuras como Galadriel e Celebrimbor. Nos eventos futuros, ele se torna o
+                    Senhor de Valfenda e desempenha papel fundamental na luta contra Sauron.</p>
+            </div>
+
+            <div id="personagem3" class="character-story">
+                <h3 class="character-story__title">Arondir</h3>
+                <p class="character-story__description">Arondir é um elfo silvestre e guerreiro que trabalha como
+                    guardião nas terras dos humanos. Ele se envolve romanticamente com a humana Bronwyn, o que cria
+                    conflitos e desafia as normas de sua cultura. Este é um personagem novo criado para a série, mas sua
+                    história reflete temas comuns da obra de Tolkien, como o amor entre espécies diferentes e a
+                    lealdade.</p>
+            </div>
+
+            <div id="personagem4" class="character-story">
+                <h3 class="character-story__title">Bronwyn</h3>
+                <p class="character-story__description">Bronwyn é uma humana curandeira e mãe solteira, moradora das
+                    Terras do Sul. Ela forma uma aliança improvável com Arondir para proteger sua vila contra as ameaças
+                    que surgem na Terra-média. Ela representa o espírito de resistência humana, enfrentando forças
+                    maiores do que ela mesma para proteger aqueles que ama.
+                </p>
+            </div>
+
+            <div id="personagem5" class="character-story">
+                <h3 class="character-story__title">Halbrand</h3>
+                <p class="character-story__description">Halbrand é um personagem misterioso que cruza o caminho de
+                    Galadriel enquanto tenta fugir de seu passado. Ele possui uma natureza ambígua e levanta dúvidas
+                    sobre suas verdadeiras intenções. Sua história explora temas de redenção e o poder da escolha na
+                    luta contra a escuridão.
+                </p>
+            </div>
+
+            <div id="personagem6" class="character-story">
+                <h3 class="character-story__title">Elanor "Nori"</h3>
+                <p class="character-story__description">Nori é uma jovem pé-peludo com espírito aventureiro, algo raro
+                    entre os hobbits, que geralmente preferem uma vida tranquila. Ela encontra um estranho enigmático
+                    que cai do céu, o que desperta sua curiosidade. Como representante dos ancestrais dos hobbits, Nori
+                    traz um toque de coragem e inocência para a série.
+                </p>
+            </div>
+
+            <div id="personagem7" class="character-story">
+                <h3 class="character-story__title">Príncipe Durin IV</h3>
+                <p class="character-story__description">Durin IV é o príncipe anão de Khazad-dûm (Moria). Ele é leal ao
+                    seu reino e sua esposa, Disa. A série explora sua relação com Elrond, com quem compartilha uma
+                    amizade complexa. Ele enfrenta pressões para equilibrar o futuro de seu reino com suas amizades e
+                    alianças.
+                </p>
+            </div>
+
+            <div id="personagem8" class="character-story">
+                <h3 class="character-story__title">Princesa Disa</h3>
+                <p class="character-story__description">Esposa de Durin IV, Disa é a primeira anã a ser representada
+                    visualmente em uma adaptação para a tela. Ela é uma personagem calorosa e leal, representando o
+                    espírito e a força das anãs em Khazad-dûm. Disa traz uma energia vibrante ao reino subterrâneo dos
+                    anões, equilibrando força e compaixão.
+                </p>
+            </div>
+
+            <div id="personagem9" class="character-story">
+                <h3 class="character-story__title">Alto Rei Gil-galad</h3>
+                <p class="character-story__description">Gil-galad é o último Alto Rei dos Noldor, governando o reino
+                    élfico de Lindon. Ele é uma figura sábia e justa, cuja liderança é crucial na luta contra Sauron.
+                    Ele desconfia das forças sombrias que estão voltando e busca proteger a Terra-média de uma nova
+                    ameaça. Gil-galad é peça-chave na Aliança entre Elfos e Homens.
+                </p>
+            </div>
+
+            <div id="personagem10" class="character-story">
+                <h3 class="character-story__title">Celebrimbor</h3>
+                <p class="character-story__description">Celebrimbor é um brilhante ferreiro élfico que sonha em criar
+                    grandes obras para o benefício da Terra-média. Ele acaba forjando os Anéis de Poder sob a influência
+                    de Sauron, sem saber de suas verdadeiras intenções. Sua ambição e habilidades o tornam central nos
+                    eventos que levam ao surgimento de Sauron.
+                </p>
+            </div>
+
+            <div id="personagem11" class="character-story">
+                <h3 class="character-story__title">Isildur</h3>
+                <p class="character-story__description">Isildur é um jovem marinheiro de Númenor, ainda no começo de sua
+                    jornada na série. Ele eventualmente se torna uma figura lendária, conhecido por cortar o Um Anel da
+                    mão de Sauron. Em Númenor, ele enfrenta as pressões da tradição e da responsabilidade, vivendo no
+                    limiar entre o heroísmo e a tragédia.</p>
+            </div>
+
+            <div id="personagem12" class="character-story">
+                <h3 class="character-story__title">Rainha Regente Míriel</h3>
+                <p class="character-story__description">Míriel é a Rainha Regente de Númenor, um reino de humanos que
+                    está em seu auge de poder. Ela é uma líder que lida com tensões internas e pressões para manter
+                    Númenor próspero e independente. Sua história explora a complexidade de liderar um reino com
+                    orgulho, tradição e uma queda iminente.
+                </p>
+            </div>
+
+            <div class="spoiler-character">
+                <img src="./assets/gandalf.png" alt="Gandalf">
+                <div class="thought-balloon">Quem sou eu? .... SPOILER</div>
+            </div>
+        </section>
+
+        <section id="assistir" class="main-content__section">
+            <h2 class="section__title">Onde Assistir?</h2>
+            <p class="section__description">
+                "O Senhor dos Anéis: Os Anéis do Poder" está disponível exclusivamente no <strong>Prime Video</strong>.
+                Para assistir, acesse a plataforma e desfrute dessa épica jornada na Terra-média.
+            </p>
+            <div class="video-container">
+                <a href="https://www.primevideo.com/" target="_blank" class="footer__link">Acesse o Prime Video</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__text">Siga a PrimeVideo nas redes sociais:
+            <a href="https://www.instagram.com/primevideobr/" class="footer__link" target="_blank"><i
+                    class="bi bi-instagram"></i></a>
+            <a href=" https://www.facebook.com/PrimeVideoBR/?locale=pt_BR" class="footer__link" target="_blank"><i
+                    class="bi bi-facebook"></i></a>
+        </p>
+    </footer>
+
+    <script>
+        function closePoster() {
+            const poster = document.getElementById('poster');
+            const logo = document.querySelector('.header__logo');
+
+            poster.style.animation = 'posterFadeOut 1s ease';
+            setTimeout(() => {
+                poster.style.display = 'none';
+                logo.classList.add('logo-visible');
+            }, 1000);
+        }
+    </script>
+</body>
+</html>
