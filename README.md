@@ -15,6 +15,27 @@ Este projeto é uma página interativa que apresenta informações detalhadas so
 - **CSS3**: Estilização da página, animações e design responsivo.
 - **JavaScript**: Para manipulação de eventos, como a exibição do pôster e a ativação de animações no logo.
 
+## Capturas de Tela
+
+### Poster de Entrada
+![Poster de entrada](https://github.com/user-attachments/assets/2308ee6b-5c40-44c9-9b8a-68b52a242fec)
+*Esta é a imagem de boas-vindas que aparece quando a página é carregada. O pôster cria uma experiência inicial imersiva e dá destaque ao tema da série. Ele tem um botão de fechamento que permite ao usuário começar a navegar na página assim que quiser.*
+
+### Logo da Prime Video
+![Logo Prime Video](https://github.com/user-attachments/assets/ee929444-85f1-46e7-8b1d-c58f18109af5)
+*Aqui está o logo da Prime Video, que aparece com uma animação de fade-in e movimento descendente após o pôster de entrada ser fechado. Essa transição suave ajuda a capturar a atenção do usuário e a introduzir a marca de forma impactante.*
+
+*O trailer oficial da série é incorporado diretamente na página. Ele está em uma moldura com bordas animadas para enfatizar sua importância e destacá-lo como um dos elementos principais.*
+
+### Seção de Personagens
+![Seção de Personagens](https://github.com/user-attachments/assets/f40b6b1c-a03e-4bc6-a55c-78fe4316b928)
+![Seção de Personagens](https://github.com/user-attachments/assets/4a5512d7-ec73-4077-a256-d5214ac1504a)
+*Esta imagem mostra a galeria de personagens principais da série. Cada personagem é destacado com uma animação de escala e sombra quando o usuário passa o mouse por cima, tornando a experiência interativa e visualmente envolvente.*
+
+### Navegação e Rodapé
+![Navegação e Rodapé](https://github.com/user-attachments/assets/b718e43a-239f-4d15-91cc-dafe123e3352)
+*Por fim, temos a navegação e o rodapé da página. A navegação contém links para as principais seções e é responsiva, facilitando o acesso ao conteúdo. O rodapé possui links para as redes sociais da Prime Video e também tem animações de destaque nos links, incentivando a interação.*
+
 ## Animações Utilizadas
 ### Explicação de Keyframes
 - **`@keyframes posterFadeIn`**: Animação para exibir o pôster de entrada com um efeito de fade-in, tornando a entrada inicial da página mais envolvente ao aparecer de forma gradual.
