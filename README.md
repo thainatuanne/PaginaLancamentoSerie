@@ -66,3 +66,5 @@ function closePoster() {
         logo.classList.add('logo-visible');
     }, 1000); // Tempo da duração da animação
 }
+
+https://pagina-lancamento-serie.vercel.app/
